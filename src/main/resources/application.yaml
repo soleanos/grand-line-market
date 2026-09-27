@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: grand-line-market
+
+  datasource:
+    url: jdbc:postgresql://localhost:5433/grand_line_market
+    username: grandline
+    password: "grandline_local_only"
+
+server:
+  address: 127.0.0.1
+  port: 8080
