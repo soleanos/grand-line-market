@@ -2,7 +2,7 @@ package fr.anthony.grandlinemarket.card.domain;
 
 public record CardEdition(
         Long id,
-        String game,
+        Game game,
         String cardCode,
         String name,
         String setCode,
